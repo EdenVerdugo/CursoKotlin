@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Seccion 4</string>
+    <string name="snackButton">Lanza Snackbar</string>
+    <string name="button1">Ciclo de vida</string>
+    <string name="lifeCycleButton">Ciclo de vida</string>
+    <string name="clickButton">Click</string>
+    <string name="extensionsButton">Extensiones</string>
+    <string name="picassoButton">Picasso</string>
+    <string name="intentsButton">Intents</string>
+    <string name="permissionsButton">Permissions</string>
+    <string name="sharedPreferencesButton">Shared Preferences</string>
+    <string name="extensionsFunctionsButton">Extensions Functions</string>
+</resources>
