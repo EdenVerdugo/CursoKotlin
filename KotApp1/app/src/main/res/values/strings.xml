@@ -10,4 +10,11 @@
     <string name="permissionsButton">Permissions</string>
     <string name="sharedPreferencesButton">Shared Preferences</string>
     <string name="extensionsFunctionsButton">Extensions Functions</string>
+    <string name="button_click_multi_3">Multi 3</string>
+    <string name="button_click_multi_2">Multi 2</string>
+    <string name="button_click_xml">XML</string>
+    <string name="button_click_inline">InLine</string>
+    <string name="button_click_multi_1">Multi 1</string>
+    <string name="button_by_id">By Id</string>
+    <string name="button_by_kat">By Kat</string>
 </resources>
