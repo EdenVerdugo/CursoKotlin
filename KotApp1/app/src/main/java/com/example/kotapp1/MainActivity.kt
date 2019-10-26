@@ -9,6 +9,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.kotapp1.activities.ClickEventsActivity
 import com.example.kotapp1.activities.ExtensionFunctionsActivity
 import com.example.kotapp1.activities.LifeCycleActivity
+import com.example.kotapp1.activities.PicassoActivity
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -24,6 +25,8 @@ class MainActivity : AppCompatActivity() {
         clickButton.setOnClickListener { goToClickEventsActivity() }
 
         extensionsButton.setOnClickListener { startActivity(Intent(this, ExtensionFunctionsActivity::class.java)) }
+
+        picassoButton.setOnClickListener{ startActivity(Intent(this, PicassoActivity::class.java)) }
 
     }
 
