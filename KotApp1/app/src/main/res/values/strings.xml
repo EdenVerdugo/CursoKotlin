@@ -18,4 +18,5 @@
     <string name="button_by_id">By Id</string>
     <string name="button_by_kat">By Kat</string>
     <string name="loadImageButton">Load image</string>
+    <string name="listViewButton">ListView</string>
 </resources>
