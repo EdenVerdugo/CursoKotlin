@@ -27,6 +27,8 @@ class MainActivity : AppCompatActivity() {
 
         listViewButton.setOnClickListener{ startActivity(Intent(this, ListViewActivity::class.java)) }
 
+        intentsButton.setOnClickListener() { startActivity(Intent(this, IntentsActivity::class.java)) }
+
     }
 
     fun goToLifeCycleActivity() = startActivity(Intent(this, LifeCycleActivity::class.java))

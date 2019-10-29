@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.ListViewActivity"></activity>
+        <activity android:name=".activities.IntentObjectActivity"></activity>
+        <activity android:name=".activities.IntentFlagsActivity" />
+        <activity android:name=".activities.IntentExtrasActivity" />
+        <activity android:name=".activities.IntentsActivity" />
+        <activity android:name=".activities.ListViewActivity" />
         <activity android:name=".activities.PicassoActivity" />
         <activity android:name=".activities.ClickEventsActivity" />
         <activity android:name=".activities.LifeCycleEventsActivity" />

@@ -19,4 +19,8 @@
     <string name="button_by_kat">By Kat</string>
     <string name="loadImageButton">Load image</string>
     <string name="listViewButton">ListView</string>
+    <string name="button_intent_extras">Intent Extras</string>
+    <string name="button_intent_flags">Intent Flags</string>
+    <string name="button_intent_objects">Intent Objects</string>
+    <string name="button_back">Go back</string>
 </resources>
