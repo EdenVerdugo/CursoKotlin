@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.kotapp1.R
+import com.example.kotapp1.models.Student
 import kotlinx.android.synthetic.main.activity_intents.*
 
 class IntentsActivity : AppCompatActivity() {
@@ -42,7 +43,11 @@ class IntentsActivity : AppCompatActivity() {
     }
 
     fun goToIntentObjects(){
+
+        val student: Student = Student("Eden", "Verdugo", 33, true)
         val i = Intent(this, IntentObjectActivity::class.java)
+        i.putExtra("student", student)
+
         startActivity(i)
     }
 }
